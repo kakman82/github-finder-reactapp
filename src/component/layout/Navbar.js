@@ -37,11 +37,11 @@ const Navbar = ({ icon, title }) => {
 
       <div id='navbarBasicExample' className='navbar-menu'>
         <div className='navbar-end'>
-          <Link className='navbar-item' to='/'>
+          <Link className='navbar-item' to='/' onClick={toggleBurgerMenu}>
             Home
           </Link>
 
-          <Link className='navbar-item' to='/about'>
+          <Link className='navbar-item' to='/about' onClick={toggleBurgerMenu}>
             About
           </Link>
         </div>
